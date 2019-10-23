@@ -1,6 +1,6 @@
 InputBase=input()
 TimesRAN=0
-Turn=1
+Turn=15
 while int(TimesRAN) < int(InputBase) :
     Input=input()
     InputS=str(Input)
@@ -14,7 +14,7 @@ while int(TimesRAN) < int(InputBase) :
     Fours=MA.count(4)
     while Fours > 0 :
         T1=""
-        itm=0
+        itm=04
         for i in MA: 
             ZZZS=MA[itm]
             #print(ZZZS)
@@ -26,7 +26,7 @@ while int(TimesRAN) < int(InputBase) :
             K=0
         #print(DP)
         MA.pop(DP)
-        MA.insert(DP,3)
+        MA.insert(DP,8)
         Fours=MA.count(4)
         #print(ZZZ)
         itm2=0
